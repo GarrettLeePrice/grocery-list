@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header" class="jumbotron">
+        <h1>Enter the items you need at the grocery store:</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <div>
+          <form>
+            <div class="form-group">
+              <label for="item1">First item</label>
+              <input type="text" class="form-control" id="answer1">
+            </div>
+            <div class="form-group">
+              <label for="item2">Second item</label>
+              <input type="text" class="form-control" id="answer2">
+            </div>
+            <div class="form-group">
+              <label for="item3">Third item</label>
+              <input type="text" class="form-control" id="answer3">
+            </div>
+            <div class="form-group">
+              <label for="item4">Fourth item</label>
+              <input type="text" class="form-control" id="answer4">
+            </div>
+            <button id="button" type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <h2>Here is your grocery list alphabetized</h2>
+        <ul>
+          <li id="answers"></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
