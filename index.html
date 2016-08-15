@@ -21,28 +21,27 @@
           <form>
             <div class="form-group">
               <label for="item1">First item</label>
-              <input type="text" class="form-control" id="answer1">
+              <input type="text" class="form-control" id="answer1" required>
             </div>
             <div class="form-group">
               <label for="item2">Second item</label>
-              <input type="text" class="form-control" id="answer2">
+              <input type="text" class="form-control" id="answer2" required>
             </div>
             <div class="form-group">
               <label for="item3">Third item</label>
-              <input type="text" class="form-control" id="answer3">
+              <input type="text" class="form-control" id="answer3" required>
             </div>
             <div class="form-group">
               <label for="item4">Fourth item</label>
-              <input type="text" class="form-control" id="answer4">
+              <input type="text" class="form-control" id="answer4" required>
             </div>
             <button id="button" type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
 
         <h2>Here is your grocery list alphabetized</h2>
-        <ul>
-          <li id="answers"></li>
-        </ul>
+        <ol id="grocery_list">
+        </ol>
       </div>
     </div>
   </body>
